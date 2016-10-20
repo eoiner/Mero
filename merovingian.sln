@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merovingian", "Quandly\Merovingian.csproj", "{0A2A199A-B10F-4C44-B162-E1AFA0A62E9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merovingian.Tests", "Quandly.Tests\Merovingian.Tests.csproj", "{FD560BEB-39B7-4521-8D40-87F20EE78E7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quandl.API", "Quandl.API\Quandl.API.csproj", "{7F50998F-3177-441A-A6B7-31A481902948}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConsoleApplications", "ConsoleApplications", "{61FE377B-8933-4A6B-A3F4-D94D9F626C83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{8655E2E9-689F-4ACD-A6CF-A1731655240E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TradingLogic", "TradingLogic", "{F9371D9C-E169-46B9-A67B-2777F626A736}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms", "Algorithms\Algorithms.csproj", "{84D5243B-C9CE-49BA-8B9F-3251A6FEDC2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quandl_CurrencyParser", "Quandl_CurrencyParser\Quandl_CurrencyParser.csproj", "{84F80291-D2B9-4220-AF8D-BE97963C65DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quandl_CommoditiesParser", "Quandl_CommoditiesParser\Quandl_CommoditiesParser.csproj", "{6CB4DD2F-1E29-4C98-B0A3-9A2336B898F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A2A199A-B10F-4C44-B162-E1AFA0A62E9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A2A199A-B10F-4C44-B162-E1AFA0A62E9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A2A199A-B10F-4C44-B162-E1AFA0A62E9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A2A199A-B10F-4C44-B162-E1AFA0A62E9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD560BEB-39B7-4521-8D40-87F20EE78E7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD560BEB-39B7-4521-8D40-87F20EE78E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD560BEB-39B7-4521-8D40-87F20EE78E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD560BEB-39B7-4521-8D40-87F20EE78E7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F50998F-3177-441A-A6B7-31A481902948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F50998F-3177-441A-A6B7-31A481902948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F50998F-3177-441A-A6B7-31A481902948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F50998F-3177-441A-A6B7-31A481902948}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84D5243B-C9CE-49BA-8B9F-3251A6FEDC2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84D5243B-C9CE-49BA-8B9F-3251A6FEDC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84D5243B-C9CE-49BA-8B9F-3251A6FEDC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84D5243B-C9CE-49BA-8B9F-3251A6FEDC2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84F80291-D2B9-4220-AF8D-BE97963C65DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F80291-D2B9-4220-AF8D-BE97963C65DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F80291-D2B9-4220-AF8D-BE97963C65DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F80291-D2B9-4220-AF8D-BE97963C65DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CB4DD2F-1E29-4C98-B0A3-9A2336B898F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CB4DD2F-1E29-4C98-B0A3-9A2336B898F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CB4DD2F-1E29-4C98-B0A3-9A2336B898F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CB4DD2F-1E29-4C98-B0A3-9A2336B898F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7F50998F-3177-441A-A6B7-31A481902948} = {8655E2E9-689F-4ACD-A6CF-A1731655240E}
+		{84D5243B-C9CE-49BA-8B9F-3251A6FEDC2B} = {F9371D9C-E169-46B9-A67B-2777F626A736}
+		{84F80291-D2B9-4220-AF8D-BE97963C65DB} = {61FE377B-8933-4A6B-A3F4-D94D9F626C83}
+		{6CB4DD2F-1E29-4C98-B0A3-9A2336B898F1} = {61FE377B-8933-4A6B-A3F4-D94D9F626C83}
+	EndGlobalSection
+EndGlobal
